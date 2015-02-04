@@ -2,7 +2,6 @@
     "name": "ccm/locatorbundle",
     "type": "symfony-bundle",
     "description": "My beautiful bundle.",
-    "target-dir": "CCM/LocatorBundle",
     "autoload" : {
         "psr-4": { "CCM\\LocatorBundle\\": "" }
     },
