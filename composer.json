@@ -1,0 +1,12 @@
+{
+    "name": "ccm/locatorbundle",
+    "type": "symfony-bundle",
+    "description": "My beautiful bundle.",
+    "autoload" : {
+        "psr-4": { "CCM\\LocatorBundle\\CCMLocatorBundle\\": "" }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    }
+}
+
