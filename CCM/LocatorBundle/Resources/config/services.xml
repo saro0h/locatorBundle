@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="ccm_locator.chained_locator" class="CCM\LocatorBundle\Locator\ChainedLocator" />
+
+        <service id="ccm_locator.google_place" class="CCM\LocatorBundle\Locator\GooglePlaceLocator">
+            <argument>AIzaSyC567ISu8csXOipVOTbEM02TeU0HsBkD6A</argument>
+            <tag name="locator" />
+        </service>
+    </services>
+</container>
